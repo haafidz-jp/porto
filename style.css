@@ -1,0 +1,37 @@
+.jumbotron {
+    min-height: 101vh;
+    background-image: url("http://www.ghibli.jp/gallery/ged007.jpg");
+    background-size: cover;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.display-4 {
+    color: #ffffff;
+    font-size: 800%;
+    text-shadow: 2px 2px #000000;
+    size: 20px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+}
+
+.lead {
+    text-align: center;
+    color: #ffffff;
+}
